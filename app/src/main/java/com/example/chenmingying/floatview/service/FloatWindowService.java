@@ -112,7 +112,7 @@ public class FloatWindowService extends Service  {
     }
 
     /**
-     * 获取信息
+     * 1获取信息
      */
     private List<String> getHomes() {
         List<String> names = new ArrayList<String>();
