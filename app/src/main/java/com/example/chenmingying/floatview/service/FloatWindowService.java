@@ -103,7 +103,7 @@ public class FloatWindowService extends Service  {
         isOpen =false;
     }
     /**
-     * 判断当前界面是否是桌面
+     * @return判断当前界面是否是桌面
      */
     private boolean isHome() {
         ActivityManager mActivityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
@@ -112,7 +112,7 @@ public class FloatWindowService extends Service  {
     }
 
     /**
-     * @return
+     * @return获取信息
      */
     private List<String> getHomes() {
         List<String> names = new ArrayList<String>();
